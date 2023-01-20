@@ -1,5 +1,6 @@
 const moment = require("moment")
-const db = require('better-sqlite3')('./database/nodehill_schedule.db', {fileMustExist: true /*, verbose: console.log*/ })
+// const db = require('better-sqlite3')('./database/nodehill_schedule.db', {fileMustExist: true /*, verbose: console.log*/ })
+const db = require('../modules/db')()
 
 function makeCalendar(fromDate = '2022-01-01', toDate = '2022-01-31', locale = 'sv'){
 

@@ -1,4 +1,5 @@
-const db = require('better-sqlite3')('./database/nodehill_schedule.db', {fileMustExist: true /*, verbose: console.log*/ })
+// const db = require('better-sqlite3')('./database/nodehill_schedule.db', {fileMustExist: true /*, verbose: console.log*/ })
+const db = require('../modules/db')()
 
 // convert schema table from schema.csv style to schedule table style
 

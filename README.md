@@ -5,7 +5,9 @@ The project may work in various degrees in various NodeJS versions, but the proj
 As a first step when setting up the project you will need to install all dependencies. You might not be prompted by the system to run npm audit fix everytime, but if you are please do so:
 
 ```bash
-cd admin && npm install && npm audit fix && cd .. && cd schedule-data-service && npm install && npm audit fix && cd .. && npm install && npm audit fix
+cd admin && npm install && npm audit fix && cd ..
+cd schedule-data-service && npm install && npm audit fix && cd ..
+npm install && npm audit fix
 ```
 
 Next you will want to build the application (our admin dashboard built by utilising React-Admin) for production:
