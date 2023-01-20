@@ -4,9 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd schedule-data-service && node index",
-    "dev": "cd schedule-data-service && nodemon index"
+    "dev": "newman run reqres.postman_collection.json && cd schedule-data-service && nodemon index"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,8 @@
     "express-session": "^1.17.1",
     "nodemailer": "^6.4.17",
     "pdfkit": "^0.11.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
   }
 }
