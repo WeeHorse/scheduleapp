@@ -16,7 +16,7 @@ cd admin && npm run build && cd ..
 
 Nodemon is a dev-dependency since 2023-01-27 but you can install it manually, and globally using:
 ```bash
-npm install -g --save-dev nodemon
+npm install -g nodemon
 ```
 
 To get the application up and running, please use this command:
