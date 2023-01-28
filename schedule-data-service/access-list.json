@@ -109,7 +109,8 @@
     "route": "/data/login",
     "roles":[
       {"role": "anonymous", "methods": ["POST","GET"]},
-      {"role": "user", "methods": ["GET", "DELETE"]}
+      {"role": "user", "methods": ["GET", "DELETE"]},
+      {"role": "admin", "methods": ["GET", "DELETE"]}
     ]
   },
 

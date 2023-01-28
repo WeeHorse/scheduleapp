@@ -11,7 +11,7 @@ export function renderToolbar(){
         ${locationParam('preview') ? '<button class="go-live" style="margin-right:12px">Go live</button>' : ''}        
         <button id="goToToday">Gå till idag</button>&nbsp;&nbsp;
         <button onclick="location.href=\'/admin\'">Admin</button>&nbsp;&nbsp;
-        <button onclick="location.href=\'/logout\'">Logout</button>&nbsp;&nbsp;
+        <button onclick="location.href=\'/logout.html\'">Logout</button>&nbsp;&nbsp;
         <div style="float:right">${q.nof ? '' : filters(data)}</div>
     </footer>
     `
