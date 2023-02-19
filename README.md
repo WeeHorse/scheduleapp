@@ -14,7 +14,7 @@ Next you will want to build the application (our admin dashboard built by utilis
 cd admin && npm run build && cd ..
 ```
 
-Nodemon is a dev-dependency since 2023-01-27 but you can install it manually, and globally using:
+Nodemon is not required for running the project using `npm start`, only for using `npm run dev`. It is a dev-dependency since 2023-01-27 but you can install it manually, and globally using. 
 ```bash
 npm install -g nodemon
 ```
@@ -22,7 +22,7 @@ npm install -g nodemon
 To get the application up and running, please use this command:
 
 ```bash
-npm run dev
+npm run start
 ```
 
 
